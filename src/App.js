@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <AddTask/>
-      <ListTask />
+      <ListTask/>
       
       </header>
     </div>

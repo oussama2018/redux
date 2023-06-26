@@ -20,9 +20,7 @@ const Task = ({toDo}) => {
         <input type="text" placeholder='edit' ref={x}/>
         <input type="submit" onClick={() => {console.log(x);dispatch(editToDo({id:toDo.id,description:x.current.value}))}}/>
         <input type='checkbox' ref={y} onClick={() => {console.log(x);dispatch(editCheck({isDone:y.current.checked}))}}/>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
+      
     
 
         </div>
